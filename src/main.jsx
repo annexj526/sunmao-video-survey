@@ -37,7 +37,7 @@ const likertItems = [
   [7, "I felt emotionally connected to the cultural content in this video."],
   [8, "This video made me feel emotionally drawn to Chinese culture."],
   [9, "I feel that I understood the cultural meaning of this video well."],
-  [10, "The video provided enough information for me to understand it clearly. "],
+  [10, "The video provided enough information for me to understand it clearly."],
   [11, "I feel that I understood all parts of this video correctly."],
   [12, "I feel that my understanding of this video did not lead to any negative impressions."],
   [13, "This video expanded my knowledge of Chinese culture."],
