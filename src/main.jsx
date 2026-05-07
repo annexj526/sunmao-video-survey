@@ -287,7 +287,7 @@ function App() {
 
             <QuestionBlock
               id="A3"
-              text="Which country or cultural background do you primarily identify with?"
+              text="What is your country or cultural background?"
             >
               <input
                 className="text-input"
@@ -298,9 +298,28 @@ function App() {
                 placeholder="Open-ended response"
               />
             </QuestionBlock>
-
+            
+<QuestionBlock
+  id="A4"
+  text="What is your highest level of education completed?"
+>
+  <RadioGroup
+    name="education_level"
+    options={[
+      "Secondary education or below",
+      "High school diploma or equivalent",
+      "Bachelor’s degree",
+      "Master’s degree",
+      "Doctoral degree",
+      "Other",
+      "Prefer not to say",
+    ]}
+    value={form.education_level}
+    onChange={(value) => setAnswer("education_level", value)}
+  />
+</QuestionBlock>
             <LikertQuestion
-              id="A4"
+              id="A5"
               text="Before watching this video, how familiar were you with Chinese culture?"
               value={form.chinese_culture_familiarity}
               onChange={(value) => setAnswer("chinese_culture_familiarity", value)}
@@ -308,7 +327,7 @@ function App() {
             />
 
             <LikertQuestion
-              id="A5"
+              id="A6"
               text="Before watching this video, what was your attitude toward Sunmao?"
               value={form.sunmao_attitude}
               onChange={(value) => setAnswer("sunmao_attitude", value)}
