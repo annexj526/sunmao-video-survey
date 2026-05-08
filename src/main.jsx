@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import { createClient } from "@supabase/supabase-js";
 import "./style.css";
 
-const VIDEO_URL = "https://www.youtube.com/watch?v=T7Ltf_OOQB0";
-const EMBED_URL = "https://www.youtube.com/embed/T7Ltf_OOQB0";
+const VIDEO_URL = "https://www.bilibili.com/video/BV1duWyztE8q/";
+const EMBED_URL = "https://player.bilibili.com/player.html?bvid=BV1duWyztE8q&autoplay=0";
 const REQUIRED_WATCH_SECONDS = 180;
 
 const supabase = createClient(
