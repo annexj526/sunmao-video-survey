@@ -280,3 +280,14 @@ p {
     text-align: left !important;
   }
 }
+.youtube-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.youtube-link:hover {
+  text-decoration: underline;
+}
