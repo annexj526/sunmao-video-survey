@@ -5,6 +5,7 @@ import "./style.css";
 
 const VIDEO_URL = "https://www.bilibili.com/video/BV1duWyztE8q/";
 const EMBED_URL = "https://player.bilibili.com/player.html?bvid=BV1duWyztE8q&autoplay=0";
+const YOUTUBE_URL = "https://youtu.be/T7Ltf_OOQB0";
 const REQUIRED_WATCH_SECONDS = 180;
 
 const supabase = createClient(
@@ -246,6 +247,19 @@ function App() {
               The questionnaire button will be unlocked after the required
               viewing time.
             </p>
+         <p>
+  If the video cannot be played inside the page, please use the
+  YouTube backup link below:
+</p>
+
+<a
+  href={YOUTUBE_URL}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="youtube-link"
+>
+  Open backup video on YouTube
+</a>
           </section>
 
           <div className="actions">
