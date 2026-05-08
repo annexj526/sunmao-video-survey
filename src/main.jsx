@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createClient } from "@supabase/supabase-js";
 import "./style.css";
 
-const VIDEO_URL = "https://youtu.be/T7Ltf_OOQB0";
+const VIDEO_URL = "https://www.youtube.com/watch?v=T7Ltf_OOQB0";
 const EMBED_URL = "https://www.youtube.com/embed/T7Ltf_OOQB0";
 const REQUIRED_WATCH_SECONDS = 180;
 
